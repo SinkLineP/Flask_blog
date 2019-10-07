@@ -12,6 +12,6 @@ def home():
     return render_template('home.html', posts=posts)
 
 
-@main.route("/about")
+@main.route("/chat")
 def about():
-    return render_template('about.html', title='About')
+    return render_template('about.html', title='Chat')
